@@ -26,19 +26,19 @@ int _printf(const char *format, ...)
 			switch (format[i + 1])
 			{
 				case 'u':
-					num = va_arg(args, unsigned int);
+					num = va_arg(args, int);
 					printf("%u", num);
 					break;
 				case 'o':
-					num = va_arg(args, unsigned int);
+					num = va_arg(args, int);
 					printf("%o", num);
 					break;
 				case 'x':
-					num = va_arg(args, unsigned int);
+					num = va_arg(args, int);
 					printf("%x", num);
 					break;
 				case 'X':
-					num = va_arg(args, unsigned int);
+					num = va_arg(args, int);
 					printf("%X", num);
 					break;
 				default:
