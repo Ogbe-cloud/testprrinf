@@ -4,7 +4,7 @@
 #include <stdio.h>
 #define BUFFER_SIZE 1024
 
-void writeToBuffer(char *buffer, const char *data, int SizeOfData) {
+void _printf(char *buffer, const char *data, int SizeOfData) {
     strncpy(buffer, data, SizeOfData);
 }
 
@@ -14,7 +14,7 @@ void flushBuffer(char *buffer, int bufferSize) {
 int main() {
     char buffer[BUFFER_SIZE];
     const char *message = "This is some message to be written.";
-    writeToBuffer(buffer, message, strlen(message));
+    _printf(buffer, message, strlen(message));
     flushBuffer(buffer, strlen(message));
 
     return 0;
