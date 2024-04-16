@@ -1,0 +1,192 @@
+body{
+	margin: 0;
+	padding: 0px;
+}
+header{
+	color: aliceblue;
+	background-color:#1f2937;
+	height: 40%;
+}
+.header-section {
+	display: flex;
+	justify-content: space-between;
+	
+	
+}
+.header-logo{
+	padding: 0px;
+	font-size: 24x;
+	color: #f9faf8;
+}
+
+.header-left-col{
+	margin-left:40px;
+
+}
+.header-right-col{
+	margin-left:40px;
+	width: 40%;
+	margin-right: 50px;
+
+}
+.header-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-list p{
+	font-size: 18px;
+	color: #e5e7eb;
+	align-content: space-between;
+	margin-left: 10px;
+
+
+}
+
+.hero-section{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.about-section{
+	
+	width: 30%;
+	height: 20%;
+	margin: 5px 20px 20px 20px;
+
+	padding: 0px;
+	
+
+}
+.about-section h1{
+	font-size: 48px;
+	margin: 0;
+	padding: 0;
+	font-weight: 900;
+	color: #f9faf8;
+}
+
+.about-section p{
+	
+	margin: 0;
+	padding: 0;
+	
+}
+
+.about-section button,
+.footer button{
+	margin: 10px;
+	padding: 10px;
+	color: #3882f6;
+	width: 40%;
+	border-radius: 5px;
+
+}
+
+
+
+.place-holder{
+	width: 40%;
+	margin-bottom: 20px;
+	text-align: center;
+	border: 2px solid red;
+}
+
+
+
+/***part 2*/
+
+.info-section{
+	height: 30%;
+	margin-top: -25px;
+	padding: 0;
+	justify-items: center;
+}
+
+.info-section h2{
+	text-align: center;
+	line-height: 35px;
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+}
+
+.flex-section{
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	margin: 0px 150px 0px  150px;
+}
+
+.plane-box{
+	margin-left: 10px;
+}
+
+.plane-box div{
+	border: 2px solid rgb(118, 118, 172);
+	height: 100px;
+	border-radius: 5px;
+}
+
+/**section3*/
+
+.quote{
+	background-color: #e5e7eb;
+	display: flex;
+	height: 20vh;
+	
+}
+.quote div{
+	width: 50%;
+	margin: auto;
+}
+.quote p{
+	font-size: 18px;
+	font-style: italic;
+	font-weight: lighter;
+	color: #1f2937;
+}
+
+
+.footer{
+	margin: 50px 20px 20px 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.footer .call {
+	border: 2px solid pink;
+	align-self: center;
+	background-color: blue;
+	border-radius : 10px;
+	color: aliceblue;
+	text-align: center;
+
+	
+
+}
+
+.call{
+	display: flex;
+	text-align: center;
+}
+
+
+
+.left{
+	width: 60%;
+}
+
+.left h3{
+	background-color: #3882f6 ;
+}
+footer{
+	background-color: #1f2937;
+	height: 25px;
+}
+
+footer p{
+	text-align: center;
+	color: aliceblue;
+}
