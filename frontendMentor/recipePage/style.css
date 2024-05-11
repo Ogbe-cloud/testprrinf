@@ -1,0 +1,105 @@
+*,*::before,*::after{
+	box-sizing: border-box;
+	line-height: calc(1em + 0.5em);
+}
+
+body{
+	background-color:hsl(30, 54%, 90%);
+
+}
+p{
+	font-size: 16px;
+	overflow-wrap: break-word;
+}
+main{
+	border: 1px solid white;
+	background-color: hsl(0, 0%, 100%);
+	margin: auto;
+	width: 50%;
+	border-radius: 10px;
+	padding: 20px;
+	
+}
+
+.img{
+	margin: 20px;
+
+}
+
+img{
+	height: 25%;
+	border-radius: 20px;
+	display: block;
+	max-width: 100%;
+	
+}
+
+.recipe h1{
+	color: hsl(24, 5%, 18%);
+	font-weight: 700;
+	font-family: 'Young Serif',serif;
+
+}
+
+.Preparation-time{
+	background-color: hsl(330, 100%, 98%);
+	padding: 15px;
+	border-radius: 10px;
+}
+
+ h2{
+	color: hsl(14, 45%, 36%);
+	font-family: 'Outfit',serif;
+ }
+ .Ingredients h2{
+	font-weight: 400;
+ }
+
+ .Instruction h2{
+	font-weight: 600;
+ }
+
+ table h2{
+	font-weight: 700;
+ }
+
+.Ingredients,
+li::marker
+{
+	color: hsl(14, 45%, 36%);
+}
+.Ingredients li,
+.Instruction li,
+.Preparation-time li,
+.recipe p{
+	color: rgb(128, 131, 130);
+	margin: 15px;
+	
+}
+.Instruction p
+{
+	color:rgb(212, 223, 218); 
+}
+
+
+
+th,td{
+ margin: 10px;
+ border-bottom: 1px solid rgb(212, 223, 218) ;
+ padding: 15px;
+ 
+}
+
+
+
+
+
+
+.empty{
+	border: 1px solid rgb(234, 243, 239) ;
+}
+
+.Instruction span,
+.Preparation-time span{
+	color: hsl(24, 5%, 18%);
+}
